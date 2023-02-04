@@ -54,8 +54,8 @@ liza_alert_yolov8.ipynb - YOLOv8
 #### YOLOv8:
 
 ![](results/yolo8-1.jpg)
-![](results/yolo8-1.JPG)
-![](results/yolo8-1.JPG)
+![](results/yolo8-2.JPG)
+![](results/yolo8-3.JPG)
 
 #### YOLTv5:
 
