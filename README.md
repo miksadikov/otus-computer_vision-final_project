@@ -1,3 +1,4 @@
+
 # курс [OTUS Computer Vision](https://otus.ru/lessons/cv/)
 
 ## Поиск людей на снимках лесного массива, полученных с помощью БПЛА.
@@ -32,3 +33,32 @@ liza_alert_yolov8.ipynb - YOLOv8
 
 В итоге YOLOv5 показывает несколько лучший результат на данном датасете.
 
+#### Opигинaльныe фото:
+
+![](results/8406-50.jpg)
+![](results/8507-50.JPG)
+![](results/8464-50.JPG)
+
+#### Detectron2
+
+![](results/detectron1-50.jpg)
+![](results/detectron2-50.jpg)
+![](results/detectron3-50.jpg)
+
+#### YOLOv5:
+
+![](results/yolo5-1.jpg)
+![](results/yolo5-2.jpg)
+![](results/yolo5-3.jpg)
+
+#### YOLOv8:
+
+![](results/yolo8-1.jpg)
+![](results/yolo8-1.JPG)
+![](results/yolo8-1.JPG)
+
+#### YOLTv5:
+
+![](results/YOLTv5-8406.jpg)
+![](results/YOLTv5-8507.JPG)
+![](results/YOLTv5-6906.JPG)
