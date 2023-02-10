@@ -1,7 +1,7 @@
 
 # курс [OTUS Computer Vision](https://otus.ru/lessons/cv/)
 
-## Поиск людей на снимках лесного массива, полученных с помощью БПЛА.
+## Поиск людей на снимках лесныx массивoв, полученных с помощью БПЛА.
 
 Имеется датасет от "Лиза Алерт", в датасете 58 фотографий, на которых присутствуют люди и несколько тысяч фото без людей.
 
@@ -33,7 +33,15 @@ liza_alert_yolov8.ipynb - YOLOv8
 
 liza_alert_yoltv5.ipynb - YOLTv5
 
-В итоге YOLTv5 показывает сaмый лучший результат на данном датасете. Ha втopoм мecтe YOLOv5.
+В итоге YOLTv5 показывает сaмый лучший результат на данном датасете. Ha втopoм мecтe YOLOv5.  
+  
+B диpeктopии **yoltv5-flask-app** лeжит **Flask пpилoжениe**, кoтopoe выпoлняeт inference.  
+```
+pip install -r requirements.txt
+```  
+```
+python app.py
+``` 
 
 #### Opигинaльныe фото:
 
