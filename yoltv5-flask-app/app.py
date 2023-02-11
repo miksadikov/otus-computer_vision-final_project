@@ -23,15 +23,15 @@ def upload_file():
         file = request.files.get('file')
         if not file:
             return
-            
-        shutil.rmtree(ROOT / 'runs/detect/exp')
+        if os.path.exists(ROOT / 'runs/detect/exp'):
+            shutil.rmtree(ROOT / 'runs/detect/exp')
         dir = ROOT / 'data/images'
         for F in os.listdir(dir):
             os.remove(os.path.join(dir, F))
 
-        img_bytes = file.read()    
+        img_bytes = file.read()
         with open(ROOT / 'data/images/image.jpg', 'wb') as f:
-            f.write(img_bytes)        
+            f.write(img_bytes)
         run()
         shutil.move(ROOT / 'runs/detect/exp/image.jpg', ROOT / 'static/image.jpg')
         return render_template('result.html', class_id=1,
